@@ -84,6 +84,18 @@ nav ul {
   display: none;
 }
 
+@media only screen and (max-width: 1024px) {
+  nav ul {
+    display: none
+  }
+
+  .mobile-nav-container {
+    display: block;
+    text-align: center;
+  }
+}
+
+
 /* Product Section */
 
 .products {
@@ -116,6 +128,16 @@ nav ul {
   text-align: center;
   color: white;
   padding: 0.5rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .product{
+    width: 50%;
+  }
+
+  .product.glasses {
+    display: none;
+  }
 }
 
 /* Company Info Section */
