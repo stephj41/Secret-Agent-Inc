@@ -41,7 +41,7 @@ h1 {
 /* Banner Section */
 
 .banner {
-  background-image: url('../images/moto.jpeg');
+  background-image: url('./resources/images/moto.jpeg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
