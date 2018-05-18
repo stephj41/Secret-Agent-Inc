@@ -1,0 +1,147 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: Helvetica;
+}
+
+p,
+h1 {
+  font-weight: bold;
+}
+
+/* header section */
+
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+.header {
+  background-color: black;
+  color: white;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  padding: 0.66rem 0 0.66rem 0.5rem;
+}
+
+.header img {
+  background-color: black;
+  padding-right: 1.5rem;
+}
+
+.header span {
+  font-size: 1rem;
+}
+
+/* Banner Section */
+
+.banner {
+  background-image: url(/Users/admin/Desktop/Secret-Agent-Inc/resources/images/moto.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+}
+
+.banner-headline {
+  position: relative;
+  top: 9rem;
+  width: 20rem;
+  padding: 2rem 3rem;
+  color: white;
+  background-color: black
+}
+
+.banner-headline h1 {
+  margin: 0.25rem 0;
+  font-size: 2rem;
+}
+
+.banner-headline p {
+  font-size: 1rem;
+}
+
+/* Navigation Bar */
+
+nav {
+  background-color: firebrick;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  padding: 0.75rem 0.75rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mobile-nav-container {
+  display: none;
+}
+
+/* Product Section */
+
+.products {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.product {
+  width: 30%;
+}
+
+.product-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9rem;
+  padding: 2rem 0;
+  border: 4px solid black;
+}
+
+.product-image img {
+  max-width: 8rem;
+}
+
+.description {
+  display: block;
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 0.5rem;
+}
+
+/* Company Info Section */
+
+.company-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.info {
+  width: 35%;
+}
+
+.info .info-box {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+/* Footer Section */
+
+footer {
+  background-color: black;
+  padding: 5rem 0;
+  margin-top: 4rem;
+  color: white;
+}
